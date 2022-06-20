@@ -1,6 +1,6 @@
 
 
-    import characterData from './data.js'
+    import characterData from 'data.js'
 
     function getDiceRollArray(diceCount) {  
         return new Array(diceCount).fill(0).map(function(){
